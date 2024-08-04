@@ -1,0 +1,31 @@
+run = "npm start"
+entrypoint = "main.sh"
+hidden = [".config", "package-lock.json", "package.json", "config.json.temp", "FastConfigFca.json", "info.js", "kur.mp4", "mirai.js", "utils", ".replit.backup", "Abdulla_Database", "Siesta.md", "index.js", "includes", "nodemodules"]
+
+[[ports]]
+localPort = 80
+externalPort = 80
+
+[[ports]]
+localPort = 35501
+externalPort = 5000
+
+[[ports]]
+localPort = 35595
+externalPort = 3003
+
+[[ports]]
+localPort = 37289
+externalPort = 4200
+
+[[ports]]
+localPort = 39783
+externalPort = 3002
+
+[[ports]]
+localPort = 40687
+externalPort = 3001
+
+[[ports]]
+localPort = 46103
+externalPort = 3000
